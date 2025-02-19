@@ -1,5 +1,4 @@
 import Navbar from './components/navigation/Navbar';
-// import About from './components/sections/About';
 import ContactForm from './components/sections/Contact';
 import Experience from './components/sections/Experience';
 import Footer from './components/sections/Footer';

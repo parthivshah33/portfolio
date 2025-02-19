@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Phone, BriefcaseIcon} from 'lucide-react';
 
 export default function ContactForm() {
   return (
@@ -46,22 +46,30 @@ export default function ContactForm() {
                 >
                   <Github className="w-6 h-6" />
                 </a>
+                <a
+                href="https://www.upwork.com/freelancers/~012804d44bd4caa006?viewMode=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-full border border-[#FFD700]/30 hover:border-[#FFD700] hover:bg-[#FFD700]/10 transition-all"
+              >
+                <BriefcaseIcon className="w-6 h-6 text-[#FFD700]" />
+              </a>
               </div>
             </div>
             
             <form className="space-y-4">
               <input
                 type="text"
-                placeholder="Your Name"
+                placeholder="This form is facing issue. Kindly contact via another source. Thank You!"
                 className="w-full p-3 bg-gray-900 rounded-lg focus:ring-2 focus:ring-[#FFD700] outline-none"
               />
               <input
                 type="email"
-                placeholder="Your Email"
+                placeholder="This form is facing issue. Kindly contact via another source. Thank You!"
                 className="w-full p-3 bg-gray-900 rounded-lg focus:ring-2 focus:ring-[#FFD700] outline-none"
               />
               <textarea
-                placeholder="Your Message"
+                placeholder="This form is facing issue. Kindly contact via another source. Thank You!"
                 rows={4}
                 className="w-full p-3 bg-gray-900 rounded-lg focus:ring-2 focus:ring-[#FFD700] outline-none"
               ></textarea>

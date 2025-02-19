@@ -6,8 +6,8 @@ import parthivImage from '../../images/parthiv.png';
 export default function Hero() {
   const texts = [
     "My name is Parthiv Shah.",
-    "I am a Full Stack Developer.",
-    "I am a Generative AI Engineer.",
+    "Here to provide premium AI services",
+    "Automate your work with latest AIs."
     // Add more texts as needed
   ];
   

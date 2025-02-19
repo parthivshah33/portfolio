@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Phone , Handshake, BriefcaseIcon} from 'lucide-react';
 
 const quickLinks = [
   { name: 'Home', href: '#home' },
@@ -8,6 +8,7 @@ const quickLinks = [
   { name: 'Skills', href: '#skills' },
   { name: 'Experience', href: '#experience' },
   { name: 'Contact', href: '#contact' },
+  { name: 'Business Inquery', href:'https://www.upwork.com/freelancers/~012804d44bd4caa006?viewMode=1'}
 ];
 
 export default function Footer() {
@@ -65,8 +66,14 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-[#FFD700]" />
                 <span className="text-gray-400 text-sm">Ahmedabad, India</span>
               </div>
+              <div className="flex items-center space-x-3">
+                <Handshake className="w-5 h-5 text-[#FFD700]" />
+                <span className="text-gray-400 text-sm">Ahmedabad, India</span>
+              </div>
+
             </div>
           </div>
+          
 
           {/* Social Links */}
           <div className="space-y-4">
@@ -87,6 +94,14 @@ export default function Footer() {
                 className="p-2 rounded-full border border-[#FFD700]/30 hover:border-[#FFD700] hover:bg-[#FFD700]/10 transition-all"
               >
                 <Github className="w-6 h-6 text-[#FFD700]" />
+              </a>
+              <a
+                href="https://www.upwork.com/freelancers/~012804d44bd4caa006?viewMode=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-full border border-[#FFD700]/30 hover:border-[#FFD700] hover:bg-[#FFD700]/10 transition-all"
+              >
+                <BriefcaseIcon className="w-6 h-6 text-[#FFD700]" />
               </a>
             </div>
           </div>

@@ -24,8 +24,8 @@ const experiences = [
     icon: Code
   },
   {
-    title: "Chief Executive",
-    company: "Failed at Start-up",
+    title: "Start-up plan executive",
+    company: "Failed at my own Start-up",
     period: "2021-2022",
     description: "Gained experience in startup field and business understanding while pitching to potential customers.",
     icon: Rocket

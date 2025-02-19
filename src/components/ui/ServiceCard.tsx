@@ -26,7 +26,7 @@ export default function ServiceCard({ title, description, features, image }: Ser
         ))}
       </ul>
       <a 
-        href="#contact" 
+        href="https://www.upwork.com/freelancers/~012804d44bd4caa006?viewMode=1" 
         className="inline-block bg-[#FFD700] text-black px-6 py-2 rounded-lg hover:bg-[#FFD700]/90 transition-colors"
       >
         Learn More

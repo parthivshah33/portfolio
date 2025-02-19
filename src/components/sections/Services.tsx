@@ -25,15 +25,15 @@ const services: Service[] = [
   },
   {
     type: 'card',
-    title: "AI Development",
-    description: "Custom AI solutions for your business needs",
+    title: "AI Agent Chatbot",
+    description: "Custom AI Chatbot according to your business needs.",
     image: chatbotUiImage,
     imageStyle: {
       maxWidth: '200px',
       height: '100px',
       margin: '0 auto' // centers the image
     },
-    features: ["Custom AI Models", "Model Fine-tuning", "AI Integration"]
+    features: ["Chat with documents like pdf,sheets,.docx,etc.", "Integrate various actionable tools into Chatbot"]
   },
 ];
 
